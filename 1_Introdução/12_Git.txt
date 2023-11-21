@@ -3,4 +3,11 @@ commandos git
 git init -> git status -> git commit -a("Selecionar todos") -m ("Escrever mensagem") -> git remote add origin "URLdaPasta" -> git branch -M main
 -> git push -u origin main
 
-Depois de ter dado 
+git checkout -b "NOME" -> Para mudar a sessao que esta trabalhando (As pessoas nao veem esse)
+
+Depois de ter dado mais commits e quiser atualizar o branch: git push --set-upstream origin "NomeDoArquivo"
+
+Apos ter feito isso, cria-se uma nova branch no github, e é so dar push para as coisas com git push 
+
+Para juntar o conteudo novo com o main: 
+
