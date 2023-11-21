@@ -1,15 +1,52 @@
 commandos git
 
+
+*GIT INIT ATÉ O PUSH*
+
+
 git init -> git status -> git commit -a("Selecionar todos") -m ("Escrever mensagem") -> git remote add origin "URLdaPasta" -> git branch -M main
 -> git push -u origin main
 
-git checkout -b "NOME" -> Para mudar a sessao que esta trabalhando (As pessoas nao veem esse)
+
+*CRIAÇÃO DE NOVAS BRANCHS*
+
+
+git checkout -b "Nome" -> Para mudar a sessao que esta trabalhando (As pessoas nao veem esse)
 
 Depois de ter dado mais commits e quiser atualizar o branch: git push --set-upstream origin "NomeDoArquivo"
 
 Apos ter feito isso, cria-se uma nova branch no github, e é so dar push para as coisas com git push 
 
-Para juntar o conteudo novo com o main: git checkout main (VoltaPraMain) Obs.: git branch (para ver onde você está) e depois git merge "Nome"
+Para juntar o conteudo novo com o main: git checkout main (VoltaPraMain) [Obs.: git branch (para ver onde você está)] e depois git merge "Nome"
+
+
+*ALTERAÇÕES DIRETAMENTE NO GITHUB(NÃO OCORRE MUITO)*
 
 
 Caso tenha alguma alteração no repositorio e nao esteja salvo no local: git pull
+
+
+
+*CLONANDO PROJETOS*
+
+
+Clonar algum projeto da empresa: git clone "URLdoProjeto" (Pode Ser Achado Na Area Code do github) "Nome do Projeto"
+
+Voce consegue mudar para o branch algum da pasta original ("JS" nesse caso) usando o comando git checkout "JS"
+
+Caso você queira mudar para um branch que nao exista: git checkout -b "JS2"
+
+
+*GIT ADD SEM QUERER EM ALGUM ARQUIVO*
+
+
+git clean -f (remove add)
+
+obs.:Caso tenha feita alguma alteração no arquivo que não queira: git checkout "nome do arquivo a ser adicionado no git add"
+
+
+
+
+*GIT LOG*
+
+Possui o tracking dos commits
