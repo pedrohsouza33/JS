@@ -9,5 +9,4 @@ Depois de ter dado mais commits e quiser atualizar o branch: git push --set-upst
 
 Apos ter feito isso, cria-se uma nova branch no github, e é so dar push para as coisas com git push 
 
-Para juntar o conteudo novo com o main: 
-
+Para juntar o conteudo novo com o main: git checkout main (VoltaPraMain) Obs.: git branch (para ver onde você está) e depois git merge "Nome"
