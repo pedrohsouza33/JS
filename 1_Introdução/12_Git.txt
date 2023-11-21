@@ -1,0 +1,6 @@
+commandos git
+
+git init -> git status -> git commit -a("Selecionar todos") -m ("Escrever mensagem") -> git remote add origin "URLdaPasta" -> git branch -M main
+-> git push -u origin main
+
+Depois de ter dado 
