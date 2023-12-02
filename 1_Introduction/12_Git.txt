@@ -10,6 +10,7 @@ git init -> git status -> git commit -a("Selecionar todos") -m ("Escrever mensag
 
 *CRIAÇÃO DE NOVAS BRANCHS*
 
+git diff -> mostra a diferença entre o que eu mudei no ficheiro;
 
 git checkout -b "Nome" -> Para mudar a sessao que esta trabalhando (As pessoas nao veem esse)
 
